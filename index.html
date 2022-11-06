@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            Megrendelő neve: <input type="text" id="nev" onfocus="szin()" onblur="szinvissza()"><br>
+            Megrendelő címe: <input type="text" id="cim" onfocus="szin2()" onblur="szinvissza2()"><br>
+            Megrendelő telefonszáma: <input type="tel" value="+36" id="tel" onfocus="szin3()"
+                onblur="szinvissza3()"><br>
+            <input type="button" value="Elküld" onclick="beill()">
+        </fieldset>
+        <fieldset>
+            <h2>Vissza igazolás!</h2>
+            <p>Név: <span id="nevvissza">?</span></p>
+            <p>Cím:<span id="cimvissza">?</span></p>
+            <p>Telefon:<span id="telvissza">?</span></p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

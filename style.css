@@ -1,0 +1,30 @@
+form {
+    margin: 0 auto;
+    width: 500px;
+}
+
+fieldset {
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgb(211, 224, 248);
+
+}
+h2 {
+    background-color: white;
+}
+
+input[type=button] {
+    width: 200px;
+    background-color: white;
+    height: 30px;
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 3px;
+}
+p{
+    margin: 1px;
+}
